@@ -175,6 +175,14 @@ INSTALLED_APPS = (
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+
+    # RB: Following added for the zinnia blogging app
+    'django.contrib.admin',
+    'django.contrib.comments',
+    'tagging',
+    'mptt',
+    'zinnia',
+
 )
 
 TIME_ZONE = 'Europe/London'
